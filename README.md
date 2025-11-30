@@ -4,6 +4,8 @@
 Welcome to **EatTravelPray**, a serene, mobile-friendly, boho-chic digital space designed to blend travel inspiration, self-care, food, and soulful exploration.  
 This project is part of my personal creative and technical portfolio — showcasing UI/UX clarity, front-end development, and real world DevOps deployment skills.
 
+Please be kind and only make Authorized changes. 
+
 ---
 Last Updated On:
 Sun 2025 Nov 30 Added ReadMe file
