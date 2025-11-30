@@ -10,7 +10,7 @@ Please be kind and only make Authorized changes.
 Last Updated On:
 Sun 2025 Nov 30 Added ReadMe file
 
-## ✨ Features
+## ✨ Features ##
 
 - 🌿 **Clean, boho-chic responsive design**  
 - 🌴 **Hero section with soft beach imagery**  
