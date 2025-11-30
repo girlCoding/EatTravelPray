@@ -1,0 +1,25 @@
+name: Deploy to SiteGround
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Deploy via SSH to SiteGround
+        uses: easingthemes/ssh-deploy@v4.1.8
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.SITEGROUND_SSH_KEY }}
+          REMOTE_HOST: ssh.eattravelpray.com
+          REMOTE_PORT: "18765"
+          REMOTE_USER: u1535-ezfxlgq9gglq
+          TARGET: "/home/customer/www/eattravelpray.com/public_html"
+          SOURCE: "./"
+          ARGS: "-rltgoDzvO --delete"
